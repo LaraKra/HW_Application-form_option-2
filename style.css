@@ -1,0 +1,48 @@
+body {
+    background-image: url(imege.png);
+    background-size: cover;
+}
+.form {
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    background-color: #F6F1E9;
+    padding: 130px;
+    border: 2px solid #FF8400;
+    border-radius: 70px;
+}
+.container {
+    padding: 10px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+h1 {
+    font-family: 'Delicious Handrawn', cursive;
+    margin-left: 50px;
+    color: #FF8400;
+}
+.btn {
+    /* background-color: #FFD93D;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px; */
+    /* From https://css.glass */
+background: rgba(255, 217, 61, 0.69);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+-webkit-backdrop-filter: blur(4.9px);
+border: 1px solid rgba(255, 217, 61, 0.43);
+padding: 20px;
+font-size: 20px;
+font-family: 'Delicious Handrawn', cursive;
+}
+.btn:hover {
+    background-color: #FF8400;
+    transition-duration: 3s;
+
+}
+.space {
+    border: 2px solid #FF8400;
+    padding: 5px;
+}
